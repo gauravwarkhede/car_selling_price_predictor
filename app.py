@@ -21,7 +21,7 @@ logging.basicConfig(
 # -------------------------------------------------------------------
 # Model Loading
 # -------------------------------------------------------------------
-MODEL_PATH = 'Practice.pkl'
+MODEL_PATH = 'RandomForestR.pkl'
 try:
     with open(MODEL_PATH, 'rb') as file:
         model = pickle.load(file)
